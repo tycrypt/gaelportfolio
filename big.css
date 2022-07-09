@@ -1,0 +1,116 @@
+#back{background-image:radial-gradient(circle, 
+            #43CAEC
+      , #B60DBC);}
+                    
+                        
+  .mainBox{background-color:#e0e0e0;
+          position:absolute;
+              right: 10%;
+              left:10%;
+              top:5%;
+              bottom:5%;
+              border-radius:20px;
+              font-family: Arial, Helvetica, sans-serif;
+               font-size:19px;
+              padding:0px;text-align:center;
+            
+            }
+ .darkModeBtn{color:#acacac;
+                position:absolute;
+                top:4%;
+                right:2%;
+                cursor:pointer;}
+
+                div .InfoAndContact{
+                        background-color:#ffffff;
+                       border-style: solid;
+                        border-radius:15px;
+                        border-bottom-left-radius:0px;
+                        border-bottom-right-radius:0px;
+                       border-color: #ffffff;
+                      box-shadow:0px 1.5px 0px #a7a7a7;
+                }
+                    
+.InfoAndContact p{color: #acacac;
+                  text-align:left;
+                  margin-left:10%;
+                }
+.InfoAndContact img{width: 7%;
+        height:auto;
+        position:absolute;
+        left:0px;margin-left: 18px;margin-top: 15px;}
+ div .socialIcons{overflow:auto;
+                padding-top:4px;padding-left:8%;padding-bottom: 10px;
+                }
+
+
+                .socialIcons a{float:left;
+                       text-align:left;padding:10px;
+                       text-decoration:none;
+                       color:#acacac;
+                }
+                .socialIcons a:hover{transform:scale(0.95);
+                                     transition-duration: 0.4s;
+                                     transition-delay: 0.01s;
+
+                }
+        #youtube-icon:hover{color:red;}
+       #twitter-icon:hover{color:#5ca0e0;}
+        #instagram-icon:hover{color:#2ea043;}
+        #linkedin-icon:hover{color:#2f52b1;}
+       #headingPort{
+               text-align: left;
+                  margin-left: 10%;
+                  margin-bottom: 0%;
+                  margin-top: 1.5%;
+                  padding-bottom: 0%;
+               color: #acacac;
+              font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              text-shadow:#190186;}
+  
+   
+  
+
+      .bottomInfo{background-color:#b60dbc ;
+                position:absolute;
+                right:0%;
+                left:0%;
+                top:105%;
+                bottom:auto;
+                text-align:center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:19px;
+                padding:5px;
+                color:white;}
+
+/*hamburger menu*/
+         .hamburger button {background-color: #ffffff;
+                        color:#8d8d8d;
+                        display:block;
+                        padding-left: 35%;
+                        padding-bottom: 30px;cursor:pointer;border:none;outline:none;
+                        }
+        .hamburger i:hover{color:#303030;transform:scale(1.11);transition-duration: 0.2s;}
+
+
+        .theMainBar{background-color: #ffffff;
+        position:relative;
+                height:62%;
+                top:.4%;
+                width:7%;
+                border-bottom-left-radius: 15px;
+                border-top: #8d8d8d;}
+                .extendedMenuIcon{padding-top:20px;
+                                outline:none;
+                                text-align: center;
+
+                                        }
+
+
+   .contentForExtendedMenuIcon{
+                                max-width: 0;
+                                display: none;
+                                overflow: hidden;
+                               
+
+}
