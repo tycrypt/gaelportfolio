@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 let menuIsOpen = false;
 function extendMenu() {
     //create an array of buttons
-    const buttons = ["HOME", "PROJECTS", "ABOUT", "NOTES"];
+    const buttons = ["home", "projects", "about", "notes"];
 
     //get my menu element
     const extendedMenu = document.getElementById("extendContent");
@@ -60,7 +60,7 @@ function loadContent(page) {
         .then(html => {
             container.innerHTML = html;
 
-            if (page === 'PROJECTS') {
+            if (page === 'projects') {
                 setupProjectPageEvents();
             }
         })

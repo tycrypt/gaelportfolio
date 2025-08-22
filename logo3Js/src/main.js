@@ -118,7 +118,7 @@ window.addEventListener('keydown', (event) => {
     line.position.y -= 1;
     cube.position.y -= 1;
   }
-});
+})
 */
 
 window.addEventListener('keydown', (event) =>{
