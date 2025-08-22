@@ -3,7 +3,7 @@ export function setupProjectPageEvents() {
 
     if (projectOne) {
         projectOne.addEventListener("click", () => {
-            window.location = "pomoSecond/pom.html";
+            window.location = "https://tycrypt.github.io/pomodoroSeconds/";
         });
     }
 }
