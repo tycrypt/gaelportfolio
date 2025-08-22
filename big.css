@@ -1,6 +1,10 @@
-#back{background-image:radial-gradient(circle, 
+
+/*
+.back{background-image:radial-gradient(circle, 
             #43CAEC
       , #B60DBC);}
+.darkmode{background-image: radial-gradient(circle,#B60DBC,
+        #43CAEC);}
                     
                         
   .mainBox{background-color:#e0e0e0;
@@ -83,7 +87,7 @@
                 padding:5px;
                 color:white;}
 
-/*hamburger menu*/
+
          .hamburger button {background-color: #ffffff;
                         color:#8d8d8d;
                         display:block;
@@ -95,9 +99,10 @@
 
         .theMainBar{background-color: #ffffff;
         position:relative;
-                height:62%;
+                height:72%;
                 top:.4%;
                 width:7%;
+                bottom : 15%;
                 border-bottom-left-radius: 15px;
                 border-top: #8d8d8d;}
                 .extendedMenuIcon{padding-top:20px;
@@ -111,6 +116,228 @@
                                 max-width: 0;
                                 display: none;
                                 overflow: hidden;
-                               
+  back.dark {color:#7252ff;
 
+  }                       
+
+   }
+   */
+
+   /* === Base Gradients === */
+.back {
+  background-image: radial-gradient(circle, #007e8a, #bebebe);
+}
+
+.darkmode {
+  background-image: radial-gradient(circle, #B60DBC, #43CAEC);
+}
+
+/* === Container Box === */
+.mainBox {
+  background-color: #e0e0e0;
+  margin: 5% auto;
+  width: 80%;
+  max-width: 100%;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* === Dark Mode Button === */
+.darkModeBtn {
+  color: #555;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
+/* === Info & Contact === */
+.InfoAndContact {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0px 1.5px 3px #a7a7a7;
+  padding: 20px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.InfoAndContact p {
+  color: #666;
+  text-align: center;
+  
+}
+
+.InfoAndContact img {
+  width: 40px;
+  height: auto;
+  position: absolute;
+  left: 18px;
+  top: 15px;
+}
+
+/* === Social Icons === */
+.socialIcons {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0 20px 8%;
+  flex-wrap: wrap;
+}
+
+.socialIcons a {
+  color: #888;
+  text-decoration: none;
+  transition: transform 0.4s ease, color 0.2s ease;
+}
+
+.socialIcons a:hover {
+  transform: scale(0.95);
+}
+
+/* Hover Colors */
+#youtube-icon:hover { color: red; }
+#twitter-icon:hover { color: #5ca0e0; }
+#instagram-icon:hover { color: #2ea043; }
+#linkedin-icon:hover { color: #2f52b1; }
+
+/* === Heading === */
+#headingPort {
+  text-align: center;
+  margin-top: 1.5%;
+  color: #444;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 0 1px 2px rgba(25, 1, 134, 0.3);
+}
+
+/* === Bottom Info === */
+.bottomInfo {
+  background-color: #393939;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  padding: 10px;
+  color: white;
+  margin-top: 40px;
+}
+
+/* === Hamburger Menu === */
+.hamburger button {
+  background-color: #ffffff;
+  color: #8d8d8d;
+  display: block;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.hamburger i:hover {
+  color: #303030;
+  transform: scale(1.11);
+  transition: 0.2s;
+}
+
+/* === Sidebar/Menu === */
+.theMainBar {
+  background-color: #ffffff;
+  position: relative;
+  height: 72%;
+  width: 7%;
+  border-bottom-left-radius: 15px;
+  border-top: 1px solid #8d8d8d;
+}
+
+.extendedMenuIcon {
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* === Expandable Content === */
+.contentForExtendedMenuIcon {
+  max-width: 0;
+  display: none;
+  overflow: hidden;
+}
+
+/* === Dark Mode Overrides === */
+.darkmode .mainBox,
+.darkmode .InfoAndContact,
+.darkmode .theMainBar {
+  background-color: #222;
+  color: #ccc;
+  border-color: #444;
+}
+
+.darkmode .InfoAndContact p,
+.darkmode #headingPort,
+.darkmode .socialIcons a {
+  color: #ccc;
+}
+
+.darkmode .bottomInfo {
+  background-color: #8030a8;
+}
+
+.darkmode .hamburger button {
+  background-color: #333;
+  color: #bbb;
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+  .mainBox {
+    width: 95%;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .InfoAndContact {
+    padding: 15px;
+  }
+
+  .InfoAndContact img {
+    width: 30px;
+    top: 10px;
+  }
+
+  #headingPort {
+    font-size: 1.1rem;
+  }
+
+  .hamburger button {
+    padding-left: 10%;
+  }
+
+  .socialIcons {
+    padding-left: 5%;
+  }
+}
+
+#extendContent {
+  position: absolute;
+  top: 0px;         /* Align vertically with the button */
+  left: 60px;        /* Push to the right of the hamburger button */
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-hidden {
+  transform: scaleY(0);
+  transform-origin: top;
+  height: 0;
+  overflow: hidden;
+}
+
+#contentBox{
+        margin-top: -10%;
 }

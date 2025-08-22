@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla JS Calculator</title>
+    <script src="calc.js" defer></script> 
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/historySection.css">
+    <link rel="stylesheet" href="styles/mainCalculation.css">
+</head>
+<body>
+    <h1 class = "title">Vanilla JS Calculator</h1>
+    <button onclick="pomPage()">new page</button>
+    <div class = "calculator">
+        <input id = "numOne" class = "numberBox" type = "number" placeholder = "Enter first number"/>
+        <div class = "operatorDropdownContainer">
+            <select id = "operator">
+                <option value = "+">+</option>
+                <option value = "-">-</option>
+                <option value = "*">*</option>
+                <option value = "/">/</option>
+            </select>
+        </div>
+        <input id = "numTwo" class = "numberBox" type = "number" placeholder = "Enter second number"/>
+        <div class = "result">
+            <button id = "equal" >=</button>
+        </div>
+            <p id = "output"></p>
+        
+        
+    </div>
+    <div id = "history" class = "history"></div>
+    
+</body>
+</html>

@@ -1,0 +1,27 @@
+
+/* INPUT SECTIONS and OPERATOR */
+    .calculator {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .calculator select{
+        background-color :white;
+    }
+
+    .numberBox{
+        padding : 15px;
+    }
+
+/* This is the style for the EQUAL button */
+    .result {
+        padding : 15px;
+    }
+    .result button{
+        cursor : pointer;
+        border : none;
+        padding : 20px;
+    }

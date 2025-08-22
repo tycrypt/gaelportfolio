@@ -1,0 +1,32 @@
+#projectMainContainer{
+    background-color: white;
+}
+#projHeading{
+    padding-top: 5%;
+    text-align: center;
+    color : rgb(88, 88, 88);
+    font-family: 'Courier New', Courier, monospace;    
+}
+
+.projs{
+    padding : 10px;
+    display : grid;
+    gap : 50px 50px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+#projectOne > img{
+    width : 30%;
+    height : auto;
+    display : block;
+    justify-content: left;
+    padding : 25px;
+}
+
+.projs > div{
+    background-color : gray;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor : pointer;
+}
