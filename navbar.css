@@ -1,0 +1,14 @@
+.myNavbar button{
+    background-color: #606060;
+    color: white;
+    padding: .9rem 1rem;
+    width: 24%;
+    border: none;
+    
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.myNavbar button:hover {
+    background-color: #8dd3ff;
+}
